@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcom to KakaoTalk</title>
+    <title>Friends</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,29 +28,34 @@
         <i class="fa fa-battery"></i>
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-      <p class="welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number.
-      </p>
-    </header>
-    <form class="login-form" action="friends.html" method="get">
-      <input
-        name="username"
-        class="login-form__input"
-        type="text"
-        placeholder="Email or phone number"
-      />
-      <input
-        name="password"
-        class="login-form__input"
-        type="password"
-        placeholder="Password"
-      />
-      <button class="login-form__btn">Log In</button>
-      <button class="login-form__btn">Sign Up</button>
-      <a href="#" class="login-form__a">Find Kakao Account or Password</a>
-    </form>
+    <div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html">
+              <i class="fas fa-user fa-2x"> </i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#">
+              <span class="nav__notification">1</span>
+              <i class="far fa-comment fa-2x"> </i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#">
+              <span class="nav__report">.</span>
+              <i class="fas fa-ellipsis-h fa-2x"> </i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
