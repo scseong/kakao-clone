@@ -1,9 +1,13 @@
 @import 'reset.css';
 @import 'variables.css';
 @import 'components/status-bar.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
 @import 'components/nav-bar.css';
 @import 'screens/login.css';
+@import 'screens/friends.css';
 
 body {
   font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+  color: #2e363e;
 }
