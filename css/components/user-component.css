@@ -6,6 +6,11 @@
 
 .user-component {
   justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.user-component:active {
+  background-color: aliceblue;
 }
 
 .user-component__column:last-child {
